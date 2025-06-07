@@ -1,0 +1,113 @@
+html,
+body{
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu{
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    font-family: young serif;
+    font-size: 2rem;
+}
+
+h2{
+    font-family: outfit;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: hsl(14, 45%, 36%);
+    padding: 0 9%;
+}
+
+p{
+    font-size: 1.2rem;
+    width: 100%;
+    height: auto;
+}
+
+ol, ul, h2, h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.preparation_container{
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 2% 5%;
+}
+
+section{
+    margin: 4% auto 0 auto;
+    width:  77vw;
+    height: auto;
+    padding: 2% 0;
+}
+
+.preparation_title{
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+
+.values{
+    color: hsl(332, 51%, 32%);
+}
+
+ol li::marker, ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+li{
+    padding-left: 4%;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+.line{
+    border-bottom: 0.10rem solid hsl(30, 18%, 87%);
+}
+
+.nutritional_values{
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: space-around ;
+}
+
+@media all and (min-width: 1024px) {
+    #menu {
+        width: 40vw;
+        height: auto;
+        padding: 5% 7%;
+        border-radius: 10px;
+    }
+
+    img{
+        border-radius: 10px;
+    }
+
+    section{
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    body{
+        background-color: hsl(30, 54%, 90%);
+        padding: 5% 30%;
+    }
+}
